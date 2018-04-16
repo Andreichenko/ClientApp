@@ -5,7 +5,16 @@ import android.os.Bundle;
 
 import com.clientapp.frei.clientapp.R;
 
+/**
+ *
+ *  Client Application Android
+ *
+ *  by Andreichenko
+ */
+
 public class MainActivity extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
