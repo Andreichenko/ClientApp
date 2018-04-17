@@ -36,6 +36,149 @@
             <View
                 style="@style/line_vertical"/>
             <!--Raw String -->
+            <LinearLayout
+                style="@style/layoutStats"
+                android:layout_weight="2"
+                >
+                <TextView
+                    style="@style/textView"
+                    android:text="5"
+                    android:textSize="@dimen/font_middle_24"
+                    />
+                <TextView
+                    style="@style/textView"
+                    android:text="@string/rows_code"
+                    />
+
+            </LinearLayout>
+
+            <View
+                style="@style/line_vertical"
+                />
+            <!--Projects todo maybe new Information-->
+            <LinearLayout
+                style="@style/layoutStats"
+                >
+                <TextView
+                    style="@style/textView"
+                    android:text="5"
+                    android:textSize="@dimen/font_middle_24"
+                    />
+                <TextView
+                    style="@style/textView"
+                    android:text="@string/projects"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Mobile phone-->
+
+        <LinearLayout
+            style="@style/layoutField"
+            >
+            <ImageView
+                style="@style/icon.left"
+                android:src="@drawable/ic_call_black_24dp"
+                />
+            <LinearLayout
+                style="@style/layout"
+                >
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <EditText
+                        android:id="@+id/phone_et"
+                        style="@style/textEdit"
+                        android:hint="@string/phone_hint"
+                        android:inputType="phone"
+                        android:text="+4901632626728"
+                        />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <ImageView
+                style="@style/icon.right"
+                android:src="@drawable/ic_phone_in_talk_black_24dp"
+                />
+
+        </LinearLayout>
+
+        <View
+            style="@style/line_horizontal"/>
+
+        <!-- E-mail -->
+        <LinearLayout
+            style="@style/layoutField">
+
+            <ImageView
+                style="@style/icon.left"
+                android:src="@drawable/ic_mail_black_24dp"
+                />
+            <LinearLayout
+                style="@style/layout"
+                >
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <EditText
+                        android:id="@+id/email_et"
+                        style="@style/textEdit"
+                        android:hint="@string/email_hint"
+                        android:inputType="textEmailAddress"
+                        android:text="andreichenko@web.de"
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                style="@style/icon.right"
+                android:src="@drawable/ic_mail_outline_black_24dp"
+                />
+
+        </LinearLayout>
+
+        <View
+            style="@style/line_horizontal"
+            />
+        <!--todo something-->
+
+        <LinearLayout
+            style="@style/layoutField"
+            >
+        <ImageView
+            style="@style/icon.left"
+            android:src="@drawable/ic_call_black_24dp"
+            />
+        <LinearLayout
+            style="@style/layout"
+            android:layout_height="wrap_content"
+            >
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:id="@+id/info_et"
+                    style="@style/textEdit"
+                    android:hint="@string/info_hint"
+                    android:inputType="textMultiLine"
+                    android:text="@string/info_text"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+            <ImageView
+                style="@style/icon.right"
+                />
 
         </LinearLayout>
 
