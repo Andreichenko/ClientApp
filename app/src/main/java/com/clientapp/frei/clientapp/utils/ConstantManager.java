@@ -3,7 +3,7 @@ package com.clientapp.frei.clientapp.utils;
 
 /**
  *
- *   ConstantManager - interface for preffix application
+ *   ConstantManager - interface for constants
  *
  *
  * by Andreichenko

@@ -3,7 +3,10 @@
     <string name="phone_hint">Mobile</string>
     <string name="email_hint">E-Mail</string>
     <string name="info_hint">About me</string>
-    <string name="info_text">Hi I am good man</string>
+    <string name="info_text">Hallo! I’m a friendly guy with a wide range of DevOps, ITSM and Java development competencies. As an independent unit I can configure the Unix server, windows, deploy test environments on it, Web hosting (LAMP), and configure the job scheduler.
+DB administration at the maintenance level (filling, setting up accesses, setting up backups, monitoring, raising new instances)
+Writing Android mobile applications, both standalone and network, based on those. tasks and according to the official Google user.
+Development of back-end web applications based on Spring and Hibernate frameworks, Java</string>
     <string name="rating">Rating</string>
     <string name="rows_code">Code</string>
     <string name="projects">Projects</string>
