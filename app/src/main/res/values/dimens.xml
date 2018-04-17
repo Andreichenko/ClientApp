@@ -35,6 +35,7 @@
     <!--Font sizes-->
     <dimen name="font_small_12">12sp</dimen>
     <dimen name="font_normal_14">14sp</dimen>
+    <dimen name="font_normal_15">15sp</dimen>
     <dimen name="font_medial_16">16sp</dimen>
     <dimen name="font_medium_20">20sp</dimen>
     <dimen name="font_middle_24">24sp</dimen>
