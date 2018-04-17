@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">ClientApp</string>
+    <string name="app_name">Aleksandr Andreichenko</string>
+    <string name="phone_hint">Mobile</string>
+    <string name="email_hint">E-Mail</string>
+    <string name="info_hint">About me</string>
+    <string name="info_text">Hi I am good man</string>
+    <string name="rating">Rating</string>
+    <string name="rows_code">Code</string>
+    <string name="projects">Projects</string>
 </resources>
