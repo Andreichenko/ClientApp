@@ -5,9 +5,11 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <!--Sizes-->
+    <dimen name="size_smaller_0dp">0dp</dimen>
     <dimen name="size_small_24">24dp</dimen>
     <dimen name="size_medium_56">56dp</dimen>
     <dimen name="size_large_72">72dp</dimen>
+    <dimen name="size_largest_112dp">112dp</dimen>
 
     <!--Spaces-->
     <dimen name="spacing_tiny_4">4dp</dimen>
@@ -35,6 +37,7 @@
     <!--Font sizes-->
     <dimen name="font_small_12">12sp</dimen>
     <dimen name="font_normal_14">14sp</dimen>
+    <dimen name="font_normal_15">15sp</dimen>
     <dimen name="font_medial_16">16sp</dimen>
     <dimen name="font_medium_20">20sp</dimen>
     <dimen name="font_middle_24">24sp</dimen>
@@ -42,5 +45,9 @@
     <dimen name="font_largest_45">45sp</dimen>
     <dimen name="font_larger_56">56sp</dimen>
     <dimen name="font_larger_112">112sp</dimen>
+    
+    <!--Line sizes-->
+    <dimen name="line_size">1dp</dimen>
+    <dimen name="spacing_28dp">28dp</dimen>
     
 </resources>
