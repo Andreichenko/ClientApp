@@ -13,7 +13,7 @@ public class BaseActivity extends AppCompatActivity{
 
     public void showProgress(){
         if (mProgressDialog == null){
-            mProgressDialog = new ProgressDialog();
+      // todo       mProgressDialog = new ProgressDialog();
         }
     }
 }
