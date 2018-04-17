@@ -1,18 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.activities.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Login to Client"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <!--Statistic some statistic todo Statistic-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_largest_112dp"
+            android:background="@color/color_gray"
+            android:orientation="horizontal"
+            >
 
-</android.support.constraint.ConstraintLayout>
+            <!--Rating todo Maybe Rating-->
+            <LinearLayout
+                style="@style/layoutStats">
+
+                <TextView
+                    style="@style/textView"
+                    android:text="5"
+                    android:textSize="@dimen/font_middle_24"/>
+                <TextView
+                    style="@style/textView"
+                    android:text="@string/rating" />   <!-- todo Maybe not-->
+
+            </LinearLayout>
+
+            <View
+                style="@style/line_vertical"/>
+            <!--Raw String -->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
