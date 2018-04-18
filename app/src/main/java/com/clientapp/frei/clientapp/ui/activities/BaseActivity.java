@@ -47,6 +47,13 @@ public class BaseActivity extends AppCompatActivity{
 
 //    Hide Progress bar
 
+    /**
+     *
+     *  Hide Bar
+     *
+     *
+     */
+
     public void hideProgress(){
         if (mProgressDialog != null){
             if (mProgressDialog.isShowing()){
@@ -56,11 +63,26 @@ public class BaseActivity extends AppCompatActivity{
     }
 //    Show message
 
+    /**
+     *
+     *  Show Bar
+     *
+     * @param message  message from Toast
+     */
+
     public void showToast(String message){
         Toast.makeText(this, message, Toast.LENGTH_LONG);
     }
 
 //    Hide Progress bar after 5 seconds
+
+
+    /**
+     *
+     *  Run and delay 5 seconds
+     *
+     *
+     */
 
     public void runWithDelay(){
         final Handler handler = new Handler();
