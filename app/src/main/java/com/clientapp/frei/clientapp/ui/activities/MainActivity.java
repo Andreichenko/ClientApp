@@ -18,7 +18,7 @@ import com.clientapp.frei.clientapp.utils.ConstantManager;
  *  by Andreichenko 2018
  */
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     public static final String TAG = ConstantManager.TAG_PREFIX + "MainActivity";
 
