@@ -57,6 +57,7 @@ public class MainActivity extends BaseActivity {
         }else{
             // todo Activity has started
         }
+        //some code
 
     }
 
