@@ -74,7 +74,7 @@ public class BaseActivity extends AppCompatActivity{
         Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }
 
-//    Hide Progress bar after 5 seconds // todo 5 sec
+//    Hide Progress bar after 5 seconds // todo 5 seconds
 
 
     /**
