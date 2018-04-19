@@ -1,42 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.widget.NestedScrollView
+<android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_coordinator_container"
     android:layout_height="wrap_content"
-    android:layout_width="match_parent"
-    tools:context=".ui.activities.MainActivity" >
+    android:layout_width="match_parent">
 
-    <LinearLayout
+    <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        tools:context=".ui.activities.MainActivity"
         >
 
-        <!--Statistik-->
-        <LinearLayout
-            android:id="@+id/user_info_wrapper"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/size_largest_112dp"
-            android:background="@color/color_gray"
-            android:orientation="horizontal">
 
-            <!--Rating-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--Statistic-->
 
             <LinearLayout
-                style="@style/layoutFieldStatsInfo">
-                <TextView
-                    android:id="@+id/info_raiting"
-                    style="@style/textStatsInfovalue"
-                    android:text="5"/>
-                <TextView
-                    style="@style/textStatsInfohint"
-                    android:text="@string/rating"
-                    />
+                android:id="@+id/user_info_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_largest_112dp"
+                android:background="@color/color_gray"
+                android:orientation="horizontal">
 
-            </LinearLayout>
+                <!--Rating-->
 
-            <View
-                style="@style/lineVertical"/>
+                <LinearLayout
+                    style="@style/layoutFieldStatsInfo">
+
+                    <TextView
+                        android:id="@+id/info_raiting"
+                        style="@style/textStatsInfovalue"
+                        android:text="5"/>
+                    <TextView
+                        style="@style/textStatsInfohint"
+                        android:text="@string/rating"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    style="@style/lineVertical"/>
 
             <!--String-->
 
@@ -57,6 +65,8 @@
             </LinearLayout>
             <View
                 style="@style/lineVertical"/>
+
+
             <!--Projects-->
 
             <LinearLayout style="@style/layoutFieldStatsInfo">
@@ -70,6 +80,7 @@
                     style="@style/textStatsInfohint"
                     android:text="@string/projects" />
 
+
             </LinearLayout>
 
         </LinearLayout>
@@ -78,14 +89,18 @@
 
         <LinearLayout
             style="@style/layoutUserInfo">
+
             <ImageView
                 style="@style/icon.left"
                 android:src="@drawable/ic_call_black_24dp"/>
+
             <LinearLayout
                 style="@style/layoutFieldUserInfo">
+
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
                     <EditText
                         android:id="@+id/phone_et"
                         style="@style/textUserInfo"
@@ -93,9 +108,11 @@
                         android:inputType="phone"
                         android:text="+49 0 163 2626728"/>
 
+
                 </android.support.design.widget.TextInputLayout>
 
             </LinearLayout>
+
 
             <ImageView
                 style="@style/icon.right"
@@ -171,8 +188,11 @@
         </LinearLayout>
 
 
-    </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
 
 
 
-</android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>
