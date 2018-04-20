@@ -10,4 +10,52 @@ Development of back-end web applications based on Spring and Hibernate framework
     <string name="rating">Rating</string>
     <string name="rows_code">Code</string>
     <string name="projects">Projects</string>
+    <string name="user_profile.rating_txt.default_value">55</string>
+    <string name="user_profile.code_lines_txt.default_value">5555</string>
+    <string name="user_profile.projects_txt.default_value">5</string>
+    <string name="user_profile.placeholder.image">Change Foto Profile </string>
+    <string name="user_profile.dialog.gallery">Load Foto from galery</string>
+    <string name="user_profile.dialog.camera">Make Foto</string>
+    <string name="user_profile.dialog.cancel">Cancel</string>
+    <string name="user_profile.dialog.title">Change Foto Profile</string>
+    <string name="user_profile.dialog.choose_message">Select Foto</string>
+    <string name="login_frame.login_txt.text">LOGIN</string>
+    <string name="login_frame.login_email_et.hint">Email</string>
+    <string name="login_frame.login_password_et.hint">Password</string>
+    <string name="login_frame.login_btn.text">Login</string>
+    <string name="login_frame.remember_txt.text">Do you forget password?</string>
+    <string name="login_frame.url.forgot_pass">http://</string>
+
+    <string name="menu.profile">My profile</string>
+    <string name="menu.team">Team</string>
+    <string name="menu.exit">Exit</string>
+
+    <string name="error_phone_et">Phone number must contain 11-20 characters</string>
+    <string name="error_email_et">Incorrect e-mail was entered</string>
+
+    <string name="error.create_file">Error creating file</string>
+    <string name="error.invalid_login_or_password">Wrong login or password!</string>
+    <string name="error.not_response_from_server">not response from server</string>
+    <string name="error.network_not_available">Network is not avaliable, Please wait</string>
+    <string name="error.incorrect_token">Authorization required!</string>
+    <string name="error.user_list_not_available"> List of users can not be obtained</string>
+    <string name="error.app_email_not_available">There is no application for working with mail!</string>
+    <string name="error.user_list_not_loaded">User list can not be loaded</string>
+
+    <string name="info.give_permission">For the correct operation of the application it is necessary to give the required permissions</string>
+    <string name="info.action_granted">Allowь</string>
+
+    <string name="search.hint">Enter your username</string>
+    <string name="search.title">Search</string>
+
+    <string name="user_profile.photo.upload_ok">Photo uploaded to server</string>
+    <string name="user_profile.photo.upload_error">Error uploading photos to the server</string>
+
+    <string name="menu.order.manual">Manual sorting</string>
+    <string name="menu.order.rating">Sort by rating</string>
+    <string name="menu.order.code_lines">Sort by string</string>
+
+    <string name="uni_app">University Application</string>
+    <string name="info.data_change_in_server">The data is stored on the server!</string>
+    <string name="likes.null">0</string>
 </resources>
