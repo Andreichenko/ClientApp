@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Screen margins for Android App-->
+    <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
-    <!--Sizes-->
+    <!-- Sizes -->
     <dimen name="size_smaller_0dp">0dp</dimen>
     <dimen name="size_smaller_4">4dp</dimen>
     <dimen name="size_small_24">24dp</dimen>
@@ -13,7 +12,7 @@
     <dimen name="size_largest_112dp">112dp</dimen>
     <dimen name="size_larger_172dp">172dp</dimen>
 
-    <!--Spaces-->
+    <!-- Spaces -->
     <dimen name="spacing_tiny_4">4dp</dimen>
     <dimen name="spacing_small_8">8dp</dimen>
     <dimen name="spacing_normal_16">16dp</dimen>
@@ -28,18 +27,7 @@
     <dimen name="spacing_largest_96">96dp</dimen>
     <dimen name="spacing_largest_104">104dp</dimen>
 
-    <!--Margins-->
-    <dimen name="margin_small_16">16dp</dimen>
-    <dimen name="margin_normal_24">24dp</dimen>
-    <dimen name="margin_medial_32">32dp</dimen>
-    <dimen name="margin_medium_52">52dp</dimen>
-    <dimen name="margin_medium_56">56dp</dimen>
-    <dimen name="margin_large_72">72dp</dimen>
-    <dimen name="margin_larger_80">80dp</dimen>
-    <dimen name="margin_larger_96">96dp</dimen>
-    <dimen name="margin_largest_104">104dp</dimen>
-
-    <!--Font sizes-->
+    <!-- Font sizes -->
     <dimen name="font_small_12">12sp</dimen>
     <dimen name="font_normal_14">14sp</dimen>
     <dimen name="font_normal_15">15sp</dimen>
@@ -50,10 +38,9 @@
     <dimen name="font_large_45">45sp</dimen>
     <dimen name="font_larger_56">56sp</dimen>
     <dimen name="font_largest_112">112sp</dimen>
-    
-    <!--Line sizes-->
+
+    <!-- Line sizes -->
     <dimen name="line_size">1dp</dimen>
-    <dimen name="spacing_28dp">28dp</dimen>
 
     <!-- Misc -->
     <dimen name="profile_image_size">256dp</dimen>
