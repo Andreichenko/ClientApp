@@ -4,12 +4,17 @@
         <item
             android:id="@+id/user_profile_menu"
             android:checkable="true"
-            android:icon="@drawable/ic_business_black_24dp"
-            android:title="My Profile"/>
+            android:icon="@drawable/ic_account"
+            android:title="@string/menu.profile"/>
         <item
             android:id="@+id/team_menu"
-            android:icon="@drawable/ic_group_black_24dp"
-            android:title="Team"/>
+            android:icon="@drawable/ic_people"
+            android:title="@string/menu.team"/>
     </group>
-
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/exit_menu"
+            android:icon="@drawable/ic_exit_to_app"
+            android:title="@string/menu.exit"/>
+    </group>
 </menu>

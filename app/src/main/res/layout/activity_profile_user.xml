@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_coordinator_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="contentDescription"
+    tools:context=".ui.activities.ProfileUserActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_primary"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@color/color_primary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+            <ImageView
+                android:id="@+id/user_photo_img"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/profile_image_size"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/user_bg"/>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:theme="@style/AppTheme.PopupOverlay"
+                app:layout_collapseMode="pin"
+                app:theme="@style/ToolBarStyle"
+                app:titleTextColor="@color/white"/>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <!-- Static -->
+    <LinearLayout
+        android:id="@+id/user_info_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_primary"
+        android:orientation="horizontal"
+        app:layout_behavior=".ui.views.behaviors.HeaderBehavior">
+        <!-- Rate -->
+        <LinearLayout style="@style/layout_field_stats_info">
+
+            <TextView
+                android:id="@+id/rating_txt"
+                style="@style/text_stats_info.value"
+                android:text="@string/user_profile.rating_txt.default_value"/>
+
+            <TextView
+                style="@style/text_stats_info.hint"
+                android:text="@string/user_profile.rating_txt.text"/>
+        </LinearLayout>
+
+        <View style="@style/line_vertical"/>
+        <!-- String -->
+        <LinearLayout
+            style="@style/layout_field_stats_info"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/code_lines_txt"
+                style="@style/text_stats_info.value"
+                android:text="@string/user_profile.code_lines_txt.default_value"/>
+
+            <TextView
+                style="@style/text_stats_info.hint"
+                android:text="@string/user_profile.code_lines_txt.text"/>
+        </LinearLayout>
+
+        <View style="@style/line_vertical"/>
+        <!-- Project -->
+        <LinearLayout style="@style/layout_field_stats_info">
+
+            <TextView
+                android:id="@+id/projects_txt"
+                style="@style/text_stats_info.value"
+                android:text="@string/user_profile.projects_txt.default_value"/>
+
+            <TextView
+                style="@style/text_stats_info.hint"
+                android:text="@string/user_profile.projects_txt.text"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/static_profile_content"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/likes_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/fab_right_space"
+        android:src="@drawable/ic_favorite"
+        app:layout_anchor="@id/appbar_layout"
+        app:layout_anchorGravity="bottom|right"/>
+</android.support.design.widget.CoordinatorLayout>

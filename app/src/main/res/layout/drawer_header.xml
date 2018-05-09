@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="172dp"
-    android:paddingTop="@dimen/spacing_medial_24"
-    android:paddingRight="@dimen/spacing_normal_16"
-    android:paddingLeft="@dimen/spacing_normal_16"
+    android:layout_height="@dimen/size_larger_172dp"
+    android:background="@drawable/nav_header_bg"
     android:paddingBottom="@dimen/spacing_small_8"
-    android:background="@drawable/ic_person_black_24dp">
-<!--todo person_black is image for profile-->
+    android:paddingLeft="@dimen/spacing_normal_16"
+    android:paddingRight="@dimen/spacing_normal_16"
+    android:paddingTop="@dimen/spacing_medial_24"
+    tools:ignore="contentDescription">
 
     <ImageView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@color/color_accent"
-        android:layout_marginTop="@dimen/spacing_normal_16" />
+        android:id="@+id/user_avatar_img"
+        android:layout_width="@dimen/avatar_image_size"
+        android:layout_height="@dimen/avatar_image_size"
+        android:layout_marginTop="@dimen/spacing_normal_16"
+        android:src="@drawable/ic_account"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,25 +25,22 @@
         android:gravity="center_vertical"
         android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/user_name_txt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
-        android:text="Aleksandr Andreichenko"
-        android:textColor="@color/color_white"
-        android:textSize="@dimen/font_normal_14"/>
+        <TextView
+            android:id="@+id/user_name_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/user_profile.full_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_normal_14"/>
 
-    <TextView
-        android:id="@+id/user_email_txt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif"
-        android:text="andreichenko@web.de"
-        android:textColor="@color/color_white"
-        android:textSize="@dimen/font_normal_14"/>
-
+        <TextView
+            android:id="@+id/user_email_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="@string/user_profile.email_et.default_value"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_normal_14"/>
     </LinearLayout>
-
-
 </RelativeLayout>
